@@ -1,0 +1,1431 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schaeffler.com/university/graduate_student", "http://schaeffler.com/university/academic_staff", "http://schaeffler.com/university/dependent", "http://www.w3.org/2001/XMLSchema", "http://schaeffler.com/university", "http://schaeffler.com/university/staff", "http://schaeffler.com/university/staff_details", "http://schaeffler.com/university/department", "http://schaeffler.com/university/result", "http://schaeffler.com/university/course", "http://www.w3.org/2000/01/rdf-schema", "http://schaeffler.com/university/student" ],
+    "title" : {
+      "en" : "university"
+    },
+    "iri" : "http://schaeffler.com/university",
+    "version" : "Version 0.0.1",
+    "author" : [ "admin" ],
+    "labels" : {
+      "en" : "University"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "admin",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-30T01:33:41.888",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "Version 0.0.1",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "university",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/university/staff",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "staff",
+      "en" : "Staff"
+    },
+    "subClasses" : [ "24", "1" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://schaeffler.com/university/student",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "student",
+      "en" : "Student"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/university/dependent",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dependent",
+      "en" : "Dependent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/university/teach",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "teach",
+      "en" : "Teach"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://schaeffler.com/university/academic_staff",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "academic_staff",
+      "en" : "AcademicStaff"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://schaeffler.com/university/department",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "department",
+      "en" : "Department"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://schaeffler.com/university/result",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "result",
+      "en" : "Result"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://schaeffler.com/university/course",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "course",
+      "en" : "Course"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "staff_details",
+      "en" : "StaffDetails"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/university/graduate_student",
+    "baseIri" : "http://schaeffler.com/university",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "graduate_student",
+      "en" : "GraduateStudent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "26" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details#email",
+    "baseIri" : "http://schaeffler.com/university/staff_details",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "email",
+      "en" : "StaffDetails.Email"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details#homepage",
+    "baseIri" : "http://schaeffler.com/university/staff_details",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "homepage",
+      "en" : "StaffDetails.Homepage"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://schaeffler.com/university/dependent#relationship",
+    "baseIri" : "http://schaeffler.com/university/dependent",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "relationship",
+      "en" : "Dependent.Relationship"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://schaeffler.com/university#StaffDetailsPartOfStaff",
+    "inverse" : "11",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "StaffDetailsPartOfStaff",
+      "en" : "StaffDetailsPartOfStaff"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://schaeffler.com/university#DepartmentHasCourse",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "DepartmentHasCourse",
+      "en" : "DepartmentHasCourse"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://schaeffler.com/university#ManagerIdManagesStaffId",
+    "inverse" : "16",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "ManagerIdManagesStaffId",
+      "en" : "ManagerIdManagesStaffId"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://schaeffler.com/university/graduate_student#research_area",
+    "baseIri" : "http://schaeffler.com/university/graduate_student",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "research_area",
+      "en" : "GraduateStudent.ResearchArea"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(70)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://schaeffler.com/university/result#grade",
+    "baseIri" : "http://schaeffler.com/university/result",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "grade",
+      "en" : "Result.Grade"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "OriginalDataType: float(4,2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "20"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://schaeffler.com/university/department#dept_id",
+    "baseIri" : "http://schaeffler.com/university/department",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "dept_id",
+      "en" : "Department.DeptId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://schaeffler.com/university/academic_staff#research_area",
+    "baseIri" : "http://schaeffler.com/university/academic_staff",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "research_area",
+      "en" : "AcademicStaff.ResearchArea"
+    },
+    "domain" : "24",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://schaeffler.com/university#TeachPartOfAcademicStaff",
+    "inverse" : "39",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "TeachPartOfAcademicStaff",
+      "en" : "TeachPartOfAcademicStaff"
+    },
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details#memo",
+    "baseIri" : "http://schaeffler.com/university/staff_details",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "memo",
+      "en" : "StaffDetails.Memo"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(120)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://schaeffler.com/university/student#st_name",
+    "baseIri" : "http://schaeffler.com/university/student",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "st_name",
+      "en" : "Student.StName"
+    },
+    "minCardinality" : "1",
+    "domain" : "26",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(70)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://schaeffler.com/university/student#hobby_name",
+    "baseIri" : "http://schaeffler.com/university/student",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "hobby_name",
+      "en" : "Student.HobbyName"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "26",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(70)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://schaeffler.com/university/student#ssn",
+    "baseIri" : "http://schaeffler.com/university/student",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "ssn",
+      "en" : "Student.Ssn"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "26",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://schaeffler.com/university/department#dept_phone",
+    "baseIri" : "http://schaeffler.com/university/department",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "dept_phone",
+      "en" : "Department.DeptPhone"
+    },
+    "domain" : "13",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://schaeffler.com/university#CourseHasResult",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "CourseHasResult",
+      "en" : "CourseHasResult"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://schaeffler.com/university/department#dept_name",
+    "baseIri" : "http://schaeffler.com/university/department",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "dept_name",
+      "en" : "Department.DeptName"
+    },
+    "maxCardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(70)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://schaeffler.com/university#DepartmentHasStaff",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "DepartmentHasStaff",
+      "en" : "DepartmentHasStaff"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details#staff_firstname",
+    "baseIri" : "http://schaeffler.com/university/staff_details",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "staff_firstname",
+      "en" : "StaffDetails.StaffFirstname"
+    },
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://schaeffler.com/university/dependent#depdent_name",
+    "baseIri" : "http://schaeffler.com/university/dependent",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "depdent_name",
+      "en" : "Dependent.DepdentName"
+    },
+    "minCardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://schaeffler.com/university#CoursePartOfDepartment",
+    "inverse" : "12",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "CoursePartOfDepartment",
+      "en" : "CoursePartOfDepartment"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://schaeffler.com/university#StaffHasAcademicStaff",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "StaffHasAcademicStaff",
+      "en" : "StaffHasAcademicStaff"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://schaeffler.com/university#StaffHasDependent",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "StaffHasDependent",
+      "en" : "StaffHasDependent"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://schaeffler.com/university#StudentHasGraduateStudent",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "StudentHasGraduateStudent",
+      "en" : "StudentHasGraduateStudent"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://schaeffler.com/university#ResultPartOfCourse",
+    "inverse" : "50",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "ResultPartOfCourse",
+      "en" : "ResultPartOfCourse"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details#DOB",
+    "baseIri" : "http://schaeffler.com/university/staff_details",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "DOB",
+      "en" : "StaffDetails.Dob"
+    },
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://schaeffler.com/university#TeachPartOfCourse",
+    "inverse" : "68",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "TeachPartOfCourse",
+      "en" : "TeachPartOfCourse"
+    },
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://schaeffler.com/university#StudentHasResult",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "StudentHasResult",
+      "en" : "StudentHasResult"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://schaeffler.com/university#StudentPartOfDepartment",
+    "inverse" : "71",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "StudentPartOfDepartment",
+      "en" : "StudentPartOfDepartment"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff#staff_name",
+    "baseIri" : "http://schaeffler.com/university/staff",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "staff_name",
+      "en" : "Staff.StaffName"
+    },
+    "minCardinality" : "1",
+    "domain" : "2",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(70)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details#staff_familyname",
+    "baseIri" : "http://schaeffler.com/university/staff_details",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "staff_familyname",
+      "en" : "StaffDetails.StaffFamilyname"
+    },
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://schaeffler.com/university#DepartmentHasStudent",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "DepartmentHasStudent",
+      "en" : "DepartmentHasStudent"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "range" : "26",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details#address",
+    "baseIri" : "http://schaeffler.com/university/staff_details",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "address",
+      "en" : "StaffDetails.Address"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://schaeffler.com/university#TeachPartOfStudent",
+    "inverse" : "78",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "TeachPartOfStudent",
+      "en" : "TeachPartOfStudent"
+    },
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://schaeffler.com/university#CourseHasTeach",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "CourseHasTeach",
+      "en" : "CourseHasTeach"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://schaeffler.com/university/dependent#sex",
+    "baseIri" : "http://schaeffler.com/university/dependent",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "sex",
+      "en" : "Dependent.Sex"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: char(1)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://schaeffler.com/university#ResultPartOfStudent",
+    "inverse" : "69",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "ResultPartOfStudent",
+      "en" : "ResultPartOfStudent"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://schaeffler.com/university#StudentHasTeach",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "StudentHasTeach",
+      "en" : "StudentHasTeach"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://schaeffler.com/university#AcademicStaffPartOfStaff",
+    "inverse" : "61",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "AcademicStaffPartOfStaff",
+      "en" : "AcademicStaffPartOfStaff"
+    },
+    "domain" : "24",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://schaeffler.com/university/academic_staff#specialty",
+    "baseIri" : "http://schaeffler.com/university/academic_staff",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "specialty",
+      "en" : "AcademicStaff.Specialty"
+    },
+    "domain" : "24",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://schaeffler.com/university/student#sex",
+    "baseIri" : "http://schaeffler.com/university/student",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "sex",
+      "en" : "Student.Sex"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "OriginalDataType: char(1)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://schaeffler.com/university/course#c_id",
+    "baseIri" : "http://schaeffler.com/university/course",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "c_id",
+      "en" : "Course.CId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "14",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://schaeffler.com/university#DependentPartOfStaff",
+    "inverse" : "62",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "DependentPartOfStaff",
+      "en" : "DependentPartOfStaff"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://schaeffler.com/university#CourseHasStudent",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "CourseHasStudent",
+      "en" : "CourseHasStudent"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "OriginalTableName: registered"
+    },
+    "attributes" : [ "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff_details#staff_midname",
+    "baseIri" : "http://schaeffler.com/university/staff_details",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "staff_midname",
+      "en" : "StaffDetails.StaffMidname"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(5)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://schaeffler.com/university#GraduateStudentPartOfStudent",
+    "inverse" : "63",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "GraduateStudentPartOfStudent",
+      "en" : "GraduateStudentPartOfStudent"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://schaeffler.com/university#StaffPartOfDepartment",
+    "inverse" : "53",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "StaffPartOfDepartment",
+      "en" : "StaffPartOfDepartment"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://schaeffler.com/university/dependent#d_id",
+    "baseIri" : "http://schaeffler.com/university/dependent",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "d_id",
+      "en" : "Dependent.DId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://schaeffler.com/university/course#course_name",
+    "baseIri" : "http://schaeffler.com/university/course",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "course_name",
+      "en" : "Course.CourseName"
+    },
+    "minCardinality" : "1",
+    "domain" : "14",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(70)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://schaeffler.com/university/dependent#DOB",
+    "baseIri" : "http://schaeffler.com/university/dependent",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "DOB",
+      "en" : "Dependent.Dob"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://schaeffler.com/university/staff#staff_id",
+    "baseIri" : "http://schaeffler.com/university/staff",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "staff_id",
+      "en" : "Staff.StaffId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "2",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://schaeffler.com/university#StudentPartOfCourse",
+    "inverse" : "86",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "StudentPartOfCourse",
+      "en" : "StudentPartOfCourse"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "OriginalTableName: registered"
+    },
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://schaeffler.com/university#AcademicStaffHasTeach",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "AcademicStaffHasTeach",
+      "en" : "AcademicStaffHasTeach"
+    },
+    "domain" : "24",
+    "attributes" : [ "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://schaeffler.com/university#StaffHasStaffDetails",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "StaffHasStaffDetails",
+      "en" : "StaffHasStaffDetails"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://schaeffler.com/university#StaffIdSubordinateOfManagerId",
+    "baseIri" : "http://schaeffler.com/university",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "StaffIdSubordinateOfManagerId",
+      "en" : "StaffIdSubordinateOfManagerId"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://schaeffler.com/university/student#st_id",
+    "baseIri" : "http://schaeffler.com/university/student",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "st_id",
+      "en" : "Student.StId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "26",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "98"
+  } ]
+}

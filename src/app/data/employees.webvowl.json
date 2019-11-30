@@ -1,0 +1,1031 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://schaeffler.com/employees/current_dept_emp", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schaeffler.com/employees/titles", "http://schaeffler.com/employees/employees", "http://schaeffler.com/employees/salaries", "http://schaeffler.com/employees", "http://schaeffler.com/employees/dept_emp_latest_date", "http://www.w3.org/2000/01/rdf-schema", "http://schaeffler.com/employees/departments", "http://www.w3.org/2001/XMLSchema", "http://schaeffler.com/employees/dept_manager", "http://schaeffler.com/employees/dept_emp" ],
+    "title" : {
+      "en" : "employees"
+    },
+    "iri" : "http://schaeffler.com/employees",
+    "version" : "Version 0.0.1",
+    "author" : [ "admin" ],
+    "labels" : {
+      "en" : "Employees"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "admin",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-30T00:48:53.639",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "Version 0.0.1",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "employees",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://schaeffler.com/employees/titles",
+    "baseIri" : "http://schaeffler.com/employees",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "titles",
+      "en" : "Titles"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://schaeffler.com/employees/employees",
+    "baseIri" : "http://schaeffler.com/employees",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "employees",
+      "en" : "Employees"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/employees/current_dept_emp",
+    "baseIri" : "http://schaeffler.com/employees",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "current_dept_emp",
+      "en" : "CurrentDeptEmp"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/employees/salaries",
+    "baseIri" : "http://schaeffler.com/employees",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "salaries",
+      "en" : "Salaries"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/employees/departments",
+    "baseIri" : "http://schaeffler.com/employees",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "departments",
+      "en" : "Departments"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_emp_latest_date",
+    "baseIri" : "http://schaeffler.com/employees",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dept_emp_latest_date",
+      "en" : "DeptEmpLatestDate"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_emp",
+    "baseIri" : "http://schaeffler.com/employees",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dept_emp",
+      "en" : "DeptEmp"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_manager",
+    "baseIri" : "http://schaeffler.com/employees",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dept_manager",
+      "en" : "DeptManager"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://schaeffler.com/employees#DeptEmpPartOfDepartments",
+    "inverse" : "3",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "DeptEmpPartOfDepartments",
+      "en" : "DeptEmpPartOfDepartments"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_emp_latest_date#to_date",
+    "baseIri" : "http://schaeffler.com/employees/dept_emp_latest_date",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "to_date",
+      "en" : "DeptEmpLatestDate.ToDate"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://schaeffler.com/employees/titles#to_date",
+    "baseIri" : "http://schaeffler.com/employees/titles",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "to_date",
+      "en" : "Titles.ToDate"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://schaeffler.com/employees/employees#gender",
+    "baseIri" : "http://schaeffler.com/employees/employees",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "gender",
+      "en" : "Employees.Gender"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: enum('M','F')"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://schaeffler.com/employees#DepartmentsHasDeptManager",
+    "inverse" : "15",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "DepartmentsHasDeptManager",
+      "en" : "DepartmentsHasDeptManager"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://schaeffler.com/employees/titles#title",
+    "baseIri" : "http://schaeffler.com/employees/titles",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "title",
+      "en" : "Titles.Title"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "7",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://schaeffler.com/employees/current_dept_emp#dept_no",
+    "baseIri" : "http://schaeffler.com/employees/current_dept_emp",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "dept_no",
+      "en" : "CurrentDeptEmp.DeptNo"
+    },
+    "minCardinality" : "1",
+    "domain" : "19",
+    "comment" : {
+      "en" : "OriginalDataType: char(4)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://schaeffler.com/employees#DeptManagerPartOfDepartments",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "DeptManagerPartOfDepartments",
+      "en" : "DeptManagerPartOfDepartments"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://schaeffler.com/employees/salaries#salary",
+    "baseIri" : "http://schaeffler.com/employees/salaries",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "salary",
+      "en" : "Salaries.Salary"
+    },
+    "minCardinality" : "1",
+    "domain" : "22",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_emp_latest_date#from_date",
+    "baseIri" : "http://schaeffler.com/employees/dept_emp_latest_date",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "from_date",
+      "en" : "DeptEmpLatestDate.FromDate"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://schaeffler.com/employees/titles#from_date",
+    "baseIri" : "http://schaeffler.com/employees/titles",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "from_date",
+      "en" : "Titles.FromDate"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "7",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://schaeffler.com/employees/current_dept_emp#from_date",
+    "baseIri" : "http://schaeffler.com/employees/current_dept_emp",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "from_date",
+      "en" : "CurrentDeptEmp.FromDate"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://schaeffler.com/employees#DepartmentsHasDeptEmp",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "DepartmentsHasDeptEmp",
+      "en" : "DepartmentsHasDeptEmp"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_emp#to_date",
+    "baseIri" : "http://schaeffler.com/employees/dept_emp",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "to_date",
+      "en" : "DeptEmp.ToDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://schaeffler.com/employees/employees#hire_date",
+    "baseIri" : "http://schaeffler.com/employees/employees",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hire_date",
+      "en" : "Employees.HireDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://schaeffler.com/employees/employees#first_name",
+    "baseIri" : "http://schaeffler.com/employees/employees",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "first_name",
+      "en" : "Employees.FirstName"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(14)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://schaeffler.com/employees#DeptEmpPartOfEmployees",
+    "inverse" : "40",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "DeptEmpPartOfEmployees",
+      "en" : "DeptEmpPartOfEmployees"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://schaeffler.com/employees/current_dept_emp#to_date",
+    "baseIri" : "http://schaeffler.com/employees/current_dept_emp",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "to_date",
+      "en" : "CurrentDeptEmp.ToDate"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://schaeffler.com/employees#EmployeesHasTitles",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "EmployeesHasTitles",
+      "en" : "EmployeesHasTitles"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://schaeffler.com/employees/employees#last_name",
+    "baseIri" : "http://schaeffler.com/employees/employees",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "last_name",
+      "en" : "Employees.LastName"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(16)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://schaeffler.com/employees/salaries#from_date",
+    "baseIri" : "http://schaeffler.com/employees/salaries",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "from_date",
+      "en" : "Salaries.FromDate"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "22",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://schaeffler.com/employees/departments#dept_no",
+    "baseIri" : "http://schaeffler.com/employees/departments",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "dept_no",
+      "en" : "Departments.DeptNo"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "2",
+    "comment" : {
+      "en" : "OriginalDataType: char(4)"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://schaeffler.com/employees#DeptManagerPartOfEmployees",
+    "inverse" : "52",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "DeptManagerPartOfEmployees",
+      "en" : "DeptManagerPartOfEmployees"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://schaeffler.com/employees#SalariesPartOfEmployees",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "SalariesPartOfEmployees",
+      "en" : "SalariesPartOfEmployees"
+    },
+    "domain" : "22",
+    "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_manager#to_date",
+    "baseIri" : "http://schaeffler.com/employees/dept_manager",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "to_date",
+      "en" : "DeptManager.ToDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "14",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://schaeffler.com/employees/salaries#to_date",
+    "baseIri" : "http://schaeffler.com/employees/salaries",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "to_date",
+      "en" : "Salaries.ToDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "22",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://schaeffler.com/employees/employees#emp_no",
+    "baseIri" : "http://schaeffler.com/employees/employees",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "emp_no",
+      "en" : "Employees.EmpNo"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://schaeffler.com/employees#EmployeesHasDeptEmp",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "EmployeesHasDeptEmp",
+      "en" : "EmployeesHasDeptEmp"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_emp#from_date",
+    "baseIri" : "http://schaeffler.com/employees/dept_emp",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "from_date",
+      "en" : "DeptEmp.FromDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://schaeffler.com/employees/current_dept_emp#emp_no",
+    "baseIri" : "http://schaeffler.com/employees/current_dept_emp",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "emp_no",
+      "en" : "CurrentDeptEmp.EmpNo"
+    },
+    "minCardinality" : "1",
+    "domain" : "19",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://schaeffler.com/employees#TitlesPartOfEmployees",
+    "inverse" : "44",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "TitlesPartOfEmployees",
+      "en" : "TitlesPartOfEmployees"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://schaeffler.com/employees#EmployeesHasSalaries",
+    "inverse" : "55",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "EmployeesHasSalaries",
+      "en" : "EmployeesHasSalaries"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_emp_latest_date#emp_no",
+    "baseIri" : "http://schaeffler.com/employees/dept_emp_latest_date",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "emp_no",
+      "en" : "DeptEmpLatestDate.EmpNo"
+    },
+    "minCardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://schaeffler.com/employees/dept_manager#from_date",
+    "baseIri" : "http://schaeffler.com/employees/dept_manager",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "from_date",
+      "en" : "DeptManager.FromDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "14",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://schaeffler.com/employees/departments#dept_name",
+    "baseIri" : "http://schaeffler.com/employees/departments",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "dept_name",
+      "en" : "Departments.DeptName"
+    },
+    "maxCardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "2",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://schaeffler.com/employees#EmployeesHasDeptManager",
+    "baseIri" : "http://schaeffler.com/employees",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "EmployeesHasDeptManager",
+      "en" : "EmployeesHasDeptManager"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://schaeffler.com/employees/employees#birth_date",
+    "baseIri" : "http://schaeffler.com/employees/employees",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "birth_date",
+      "en" : "Employees.BirthDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "69"
+  } ]
+}

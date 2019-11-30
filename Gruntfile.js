@@ -52,7 +52,6 @@ module.exports = function (grunt) {
 					base: deployPath,
 					directory: deployPath,
 					livereload: true,
-					open: "http://localhost:8000/",
 					middleware: function (connect, options, middlewares) {
 						return middlewares.concat([
 							require("serve-favicon")("deploy/favicon.ico"),
@@ -165,7 +164,6 @@ module.exports = function (grunt) {
 			}
 		}
 	});
-
 
 	grunt.registerTask("default", ["release"]);
 	grunt.registerTask("pre-js", ["clean:deploy", "clean:zip", "copy"]);

@@ -1,0 +1,4026 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://schaeffler.com/sakila/sales_by_store", "http://schaeffler.com/sakila/category", "http://schaeffler.com/sakila/country", "http://schaeffler.com/sakila/customer", "http://schaeffler.com/sakila/actor", "http://www.w3.org/2001/XMLSchema", "http://schaeffler.com/sakila/inventory", "http://schaeffler.com/sakila/film_list", "http://schaeffler.com/sakila/language", "http://schaeffler.com/sakila/film", "http://schaeffler.com/sakila/payment", "http://schaeffler.com/sakila/staff_list", "http://schaeffler.com/sakila/nicer_but_slower_film_list", "http://www.w3.org/2000/01/rdf-schema", "http://schaeffler.com/sakila/store", "http://schaeffler.com/sakila/sales_by_film_category", "http://schaeffler.com/sakila/rental", "http://schaeffler.com/sakila", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schaeffler.com/sakila/address", "http://schaeffler.com/sakila/actor_info", "http://schaeffler.com/sakila/staff", "http://schaeffler.com/sakila/city", "http://schaeffler.com/sakila/film_actor", "http://schaeffler.com/sakila/film_category", "http://schaeffler.com/sakila/film_text", "http://schaeffler.com/sakila/customer_list" ],
+    "title" : {
+      "en" : "sakila"
+    },
+    "iri" : "http://schaeffler.com/sakila",
+    "version" : "Version 0.0.1",
+    "author" : [ "admin" ],
+    "labels" : {
+      "en" : "Sakila"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "admin",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-30T00:59:18.124",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "Version 0.0.1",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "sakila",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://schaeffler.com/sakila/film_actor",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "film_actor",
+      "en" : "FilmActor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/language",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "language",
+      "en" : "Language"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_text",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "film_text",
+      "en" : "FilmText"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/sales_by_store",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sales_by_store",
+      "en" : "SalesByStore"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/category",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "category",
+      "en" : "Category"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "nicer_but_slower_film_list",
+      "en" : "NicerButSlowerFilmList"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "staff_list",
+      "en" : "StaffList"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/rental",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rental",
+      "en" : "Rental"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/sales_by_film_category",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sales_by_film_category",
+      "en" : "SalesByFilmCategory"
+    },
+    "attributes" : [ "external" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_category",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "film_category",
+      "en" : "FilmCategory"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "customer",
+      "en" : "Customer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/city",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "city",
+      "en" : "City"
+    },
+    "attributes" : [ "external" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "film_list",
+      "en" : "FilmList"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "film",
+      "en" : "Film"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "actor",
+      "en" : "Actor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "156",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "190",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/country",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "country",
+      "en" : "Country"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "144",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "192",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "staff",
+      "en" : "Staff"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/store",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "store",
+      "en" : "Store"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "197",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "200",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "address",
+      "en" : "Address"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "173",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "216",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "232",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "154",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "236",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "237",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "179",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "249",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "209",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "189",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "206",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/payment",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "payment",
+      "en" : "Payment"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "258",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "260",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "183",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "253",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "171",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "227",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "218",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "247",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "customer_list",
+      "en" : "CustomerList"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "167",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/inventory",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "inventory",
+      "en" : "Inventory"
+    },
+    "attributes" : [ "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "271",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "266",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor_info",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "actor_info",
+      "en" : "ActorInfo"
+    },
+    "attributes" : [ "external" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "282",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "224",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "274",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "174",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "178",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "184",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "186",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "195",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "201",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "208",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "210",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "211",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "223",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "230",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "233",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "240",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "245",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "246",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "248",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "250",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "256",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "261",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "262",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "268",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "269",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "270",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "273",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "275",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "276",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "277",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "278",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "281",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "283",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "284",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://schaeffler.com/sakila/sales_by_store#total_sales",
+    "baseIri" : "http://schaeffler.com/sakila/sales_by_store",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "total_sales",
+      "en" : "SalesByStore.TotalSales"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(27,2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StaffHasStore",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "StaffHasStore",
+      "en" : "StaffHasStore"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer#last_name",
+    "baseIri" : "http://schaeffler.com/sakila/customer",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "last_name",
+      "en" : "Customer.LastName"
+    },
+    "minCardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(45)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list#address",
+    "baseIri" : "http://schaeffler.com/sakila/staff_list",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "address",
+      "en" : "StaffList.Address"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StaffPartOfStore",
+    "inverse" : "14",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "StaffPartOfStore",
+      "en" : "StaffPartOfStore"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/country#country_id",
+    "baseIri" : "http://schaeffler.com/sakila/country",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "country_id",
+      "en" : "Country.CountryId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#address",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "address",
+      "en" : "CustomerList.Address"
+    },
+    "minCardinality" : "1",
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/payment#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/payment",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Payment.LastUpdate"
+    },
+    "domain" : "23",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/payment#payment_date",
+    "baseIri" : "http://schaeffler.com/sakila/payment",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "payment_date",
+      "en" : "Payment.PaymentDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "23",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#name",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "CustomerList.Name"
+    },
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(91)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#first_name",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "first_name",
+      "en" : "Staff.FirstName"
+    },
+    "minCardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(45)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list#name",
+    "baseIri" : "http://schaeffler.com/sakila/staff_list",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "StaffList.Name"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(91)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#FilmActorPartOfActor",
+    "inverse" : "35",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "FilmActorPartOfActor",
+      "en" : "FilmActorPartOfActor"
+    },
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#RentalPartOfCustomer",
+    "inverse" : "38",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "RentalPartOfCustomer",
+      "en" : "RentalPartOfCustomer"
+    },
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address#postal_code",
+    "baseIri" : "http://schaeffler.com/sakila/address",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "postal_code",
+      "en" : "Address.PostalCode"
+    },
+    "domain" : "43",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#FilmCategoryPartOfCategory",
+    "inverse" : "48",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "FilmCategoryPartOfCategory",
+      "en" : "FilmCategoryPartOfCategory"
+    },
+    "domain" : "46",
+    "attributes" : [ "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list#country",
+    "baseIri" : "http://schaeffler.com/sakila/staff_list",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "country",
+      "en" : "StaffList.Country"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/rental#rental_date",
+    "baseIri" : "http://schaeffler.com/sakila/rental",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "rental_date",
+      "en" : "Rental.RentalDate"
+    },
+    "maxCardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "37",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer#create_date",
+    "baseIri" : "http://schaeffler.com/sakila/customer",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "create_date",
+      "en" : "Customer.CreateDate"
+    },
+    "minCardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#title",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "title",
+      "en" : "Film.Title"
+    },
+    "minCardinality" : "1",
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(255)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list#rating",
+    "baseIri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "rating",
+      "en" : "NicerButSlowerFilmList.Rating"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "OriginalDataType: enum('G','PG','PG-13','R','NC-17')"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/store#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/store",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Store.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list#zip%20code",
+    "baseIri" : "http://schaeffler.com/sakila/staff_list",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "zip%20code",
+      "en" : "StaffList.Zip code"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/inventory#inventory_id",
+    "baseIri" : "http://schaeffler.com/sakila/inventory",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "inventory_id",
+      "en" : "Inventory.InventoryId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "74",
+    "comment" : {
+      "en" : "OriginalDataType: mediumint(8) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#rental_rate",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "rental_rate",
+      "en" : "Film.RentalRate"
+    },
+    "minCardinality" : "1",
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(4,2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list#category",
+    "baseIri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "category",
+      "en" : "NicerButSlowerFilmList.Category"
+    },
+    "minCardinality" : "1",
+    "domain" : "63",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(25)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer#customer_id",
+    "baseIri" : "http://schaeffler.com/sakila/customer",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "customer_id",
+      "en" : "Customer.CustomerId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StaffHasPayment",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "StaffHasPayment",
+      "en" : "StaffHasPayment"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/payment#payment_id",
+    "baseIri" : "http://schaeffler.com/sakila/payment",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "payment_id",
+      "en" : "Payment.PaymentId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "23",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/language#language_id",
+    "baseIri" : "http://schaeffler.com/sakila/language",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "language_id",
+      "en" : "Language.LanguageId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "15",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(3) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#email",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "email",
+      "en" : "Staff.Email"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address#address2",
+    "baseIri" : "http://schaeffler.com/sakila/address",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "address2",
+      "en" : "Address.Address2"
+    },
+    "domain" : "43",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#special_features",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "special_features",
+      "en" : "Film.SpecialFeatures"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: set('Trailers','Commentaries','Deleted Scenes','Behind the Scenes')"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#last_name",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "last_name",
+      "en" : "Staff.LastName"
+    },
+    "minCardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(45)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list#actors",
+    "baseIri" : "http://schaeffler.com/sakila/film_list",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "actors",
+      "en" : "FilmList.Actors"
+    },
+    "domain" : "95",
+    "comment" : {
+      "en" : "OriginalDataType: text"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StoreHasCustomer",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "StoreHasCustomer",
+      "en" : "StoreHasCustomer"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#SID",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "SID",
+      "en" : "CustomerList.Sid"
+    },
+    "minCardinality" : "1",
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(3) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#RentalHasPayment",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "RentalHasPayment",
+      "en" : "RentalHasPayment"
+    },
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_category#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/film_category",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "FilmCategory.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "46",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Film.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#CityPartOfCountry",
+    "inverse" : "107",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "CityPartOfCountry",
+      "en" : "CityPartOfCountry"
+    },
+    "domain" : "106",
+    "attributes" : [ "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list#FID",
+    "baseIri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "FID",
+      "en" : "NicerButSlowerFilmList.Fid"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#CustomerHasPayment",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "CustomerHasPayment",
+      "en" : "CustomerHasPayment"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#country",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "country",
+      "en" : "CustomerList.Country"
+    },
+    "minCardinality" : "1",
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address#address_id",
+    "baseIri" : "http://schaeffler.com/sakila/address",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "address_id",
+      "en" : "Address.AddressId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "43",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor#last_name",
+    "baseIri" : "http://schaeffler.com/sakila/actor",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "last_name",
+      "en" : "Actor.LastName"
+    },
+    "minCardinality" : "1",
+    "domain" : "34",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(45)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#FilmActorPartOfFilm",
+    "inverse" : "118",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "FilmActorPartOfFilm",
+      "en" : "FilmActorPartOfFilm"
+    },
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list#title",
+    "baseIri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "title",
+      "en" : "NicerButSlowerFilmList.Title"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(255)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#PaymentPartOfRental",
+    "inverse" : "100",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "PaymentPartOfRental",
+      "en" : "PaymentPartOfRental"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_actor#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/film_actor",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "FilmActor.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "3",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#FilmHasFilmCategory",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "FilmHasFilmCategory",
+      "en" : "FilmHasFilmCategory"
+    },
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/sales_by_store#store",
+    "baseIri" : "http://schaeffler.com/sakila/sales_by_store",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "store",
+      "en" : "SalesByStore.Store"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(101)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#RentalPartOfStaff",
+    "inverse" : "128",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "RentalPartOfStaff",
+      "en" : "RentalPartOfStaff"
+    },
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StoreHasInventory",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "StoreHasInventory",
+      "en" : "StoreHasInventory"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#active",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "active",
+      "en" : "Staff.Active"
+    },
+    "minCardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(1)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list#category",
+    "baseIri" : "http://schaeffler.com/sakila/film_list",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "category",
+      "en" : "FilmList.Category"
+    },
+    "minCardinality" : "1",
+    "domain" : "95",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(25)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list#price",
+    "baseIri" : "http://schaeffler.com/sakila/film_list",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "price",
+      "en" : "FilmList.Price"
+    },
+    "domain" : "95",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(4,2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#AddressHasStaff",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "AddressHasStaff",
+      "en" : "AddressHasStaff"
+    },
+    "domain" : "43",
+    "attributes" : [ "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/rental#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/rental",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Rental.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "37",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#AddressHasStore",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "AddressHasStore",
+      "en" : "AddressHasStore"
+    },
+    "domain" : "43",
+    "attributes" : [ "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#InventoryPartOfFilm",
+    "inverse" : "141",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "InventoryPartOfFilm",
+      "en" : "InventoryPartOfFilm"
+    },
+    "domain" : "74",
+    "attributes" : [ "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/city#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/city",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "City.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "106",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#ActorHasFilmActor",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "ActorHasFilmActor",
+      "en" : "ActorHasFilmActor"
+    },
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list#actors",
+    "baseIri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "range" : "144",
+    "label" : {
+      "IRI-based" : "actors",
+      "en" : "NicerButSlowerFilmList.Actors"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "OriginalDataType: text"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/sales_by_film_category#total_sales",
+    "baseIri" : "http://schaeffler.com/sakila/sales_by_film_category",
+    "range" : "146",
+    "label" : {
+      "IRI-based" : "total_sales",
+      "en" : "SalesByFilmCategory.TotalSales"
+    },
+    "domain" : "132",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(27,2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#LanguageHasFilm",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "LanguageHasFilm",
+      "en" : "LanguageHasFilm"
+    },
+    "domain" : "15",
+    "attributes" : [ "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#FilmHasFilmActor",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "FilmHasFilmActor",
+      "en" : "FilmHasFilmActor"
+    },
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StoreHasStaff",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "StoreHasStaff",
+      "en" : "StoreHasStaff"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor_info#last_name",
+    "baseIri" : "http://schaeffler.com/sakila/actor_info",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "last_name",
+      "en" : "ActorInfo.LastName"
+    },
+    "minCardinality" : "1",
+    "domain" : "149",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(45)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list#rating",
+    "baseIri" : "http://schaeffler.com/sakila/film_list",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "rating",
+      "en" : "FilmList.Rating"
+    },
+    "domain" : "95",
+    "comment" : {
+      "en" : "OriginalDataType: enum('G','PG','PG-13','R','NC-17')"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#CustomerPartOfStore",
+    "inverse" : "97",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "CustomerPartOfStore",
+      "en" : "CustomerPartOfStore"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#notes",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "notes",
+      "en" : "CustomerList.Notes"
+    },
+    "minCardinality" : "1",
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(6)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#rental_duration",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "156",
+    "label" : {
+      "IRI-based" : "rental_duration",
+      "en" : "Film.RentalDuration"
+    },
+    "minCardinality" : "1",
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(3) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/category#category_id",
+    "baseIri" : "http://schaeffler.com/sakila/category",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "category_id",
+      "en" : "Category.CategoryId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "47",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(3) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/sales_by_store#manager",
+    "baseIri" : "http://schaeffler.com/sakila/sales_by_store",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "manager",
+      "en" : "SalesByStore.Manager"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(91)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#InventoryPartOfStore",
+    "inverse" : "129",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "InventoryPartOfStore",
+      "en" : "InventoryPartOfStore"
+    },
+    "domain" : "74",
+    "attributes" : [ "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#rating",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "163",
+    "label" : {
+      "IRI-based" : "rating",
+      "en" : "Film.Rating"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: enum('G','PG','PG-13','R','NC-17')"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address#district",
+    "baseIri" : "http://schaeffler.com/sakila/address",
+    "range" : "165",
+    "label" : {
+      "IRI-based" : "district",
+      "en" : "Address.District"
+    },
+    "minCardinality" : "1",
+    "domain" : "43",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list#FID",
+    "baseIri" : "http://schaeffler.com/sakila/film_list",
+    "range" : "167",
+    "label" : {
+      "IRI-based" : "FID",
+      "en" : "FilmList.Fid"
+    },
+    "domain" : "95",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#RentalPartOfInventory",
+    "inverse" : "169",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "RentalPartOfInventory",
+      "en" : "RentalPartOfInventory"
+    },
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#replacement_cost",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "171",
+    "label" : {
+      "IRI-based" : "replacement_cost",
+      "en" : "Film.ReplacementCost"
+    },
+    "minCardinality" : "1",
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(5,2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#ID",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "173",
+    "label" : {
+      "IRI-based" : "ID",
+      "en" : "CustomerList.Id"
+    },
+    "minCardinality" : "1",
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#FilmCategoryPartOfFilm",
+    "inverse" : "124",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "FilmCategoryPartOfFilm",
+      "en" : "FilmCategoryPartOfFilm"
+    },
+    "domain" : "46",
+    "attributes" : [ "object" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#CustomerPartOfAddress",
+    "inverse" : "176",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "CustomerPartOfAddress",
+      "en" : "CustomerPartOfAddress"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#InventoryHasRental",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "InventoryHasRental",
+      "en" : "InventoryHasRental"
+    },
+    "domain" : "74",
+    "attributes" : [ "object" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/actor",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Actor.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "34",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#release_year",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "179",
+    "label" : {
+      "IRI-based" : "release_year",
+      "en" : "Film.ReleaseYear"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: year(4)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor#actor_id",
+    "baseIri" : "http://schaeffler.com/sakila/actor",
+    "range" : "181",
+    "label" : {
+      "IRI-based" : "actor_id",
+      "en" : "Actor.ActorId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "34",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "180"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#film_id",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "183",
+    "label" : {
+      "IRI-based" : "film_id",
+      "en" : "Film.FilmId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#FilmPartOfLanguage",
+    "inverse" : "147",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "FilmPartOfLanguage",
+      "en" : "FilmPartOfLanguage"
+    },
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/category#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/category",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Category.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "47",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/address",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Address.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "43",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#CountryHasCity",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "CountryHasCity",
+      "en" : "CountryHasCity"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list#description",
+    "baseIri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "range" : "196",
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "NicerButSlowerFilmList.Description"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "OriginalDataType: text"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list#city",
+    "baseIri" : "http://schaeffler.com/sakila/staff_list",
+    "range" : "199",
+    "label" : {
+      "IRI-based" : "city",
+      "en" : "StaffList.City"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list#price",
+    "baseIri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "price",
+      "en" : "NicerButSlowerFilmList.Price"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(4,2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list#ID",
+    "baseIri" : "http://schaeffler.com/sakila/staff_list",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "ID",
+      "en" : "StaffList.Id"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(3) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/city#city",
+    "baseIri" : "http://schaeffler.com/sakila/city",
+    "range" : "206",
+    "label" : {
+      "IRI-based" : "city",
+      "en" : "City.City"
+    },
+    "minCardinality" : "1",
+    "domain" : "106",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/store#store_id",
+    "baseIri" : "http://schaeffler.com/sakila/store",
+    "range" : "209",
+    "label" : {
+      "IRI-based" : "store_id",
+      "en" : "Store.StoreId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(3) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "208"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#phone",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "phone",
+      "en" : "CustomerList.Phone"
+    },
+    "minCardinality" : "1",
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "210"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address#location",
+    "baseIri" : "http://schaeffler.com/sakila/address",
+    "range" : "193",
+    "label" : {
+      "IRI-based" : "location",
+      "en" : "Address.Location"
+    },
+    "minCardinality" : "1",
+    "domain" : "43",
+    "comment" : {
+      "en" : "OriginalDataType: geometry"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#PaymentPartOfStaff",
+    "inverse" : "80",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "PaymentPartOfStaff",
+      "en" : "PaymentPartOfStaff"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/rental#rental_id",
+    "baseIri" : "http://schaeffler.com/sakila/rental",
+    "range" : "215",
+    "label" : {
+      "IRI-based" : "rental_id",
+      "en" : "Rental.RentalId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "37",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#CustomerHasRental",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "CustomerHasRental",
+      "en" : "CustomerHasRental"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list#phone",
+    "baseIri" : "http://schaeffler.com/sakila/staff_list",
+    "range" : "218",
+    "label" : {
+      "IRI-based" : "phone",
+      "en" : "StaffList.Phone"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "217"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_text#film_id",
+    "baseIri" : "http://schaeffler.com/sakila/film_text",
+    "range" : "220",
+    "label" : {
+      "IRI-based" : "film_id",
+      "en" : "FilmText.FilmId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "93",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(6)"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#FilmHasInventory",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "FilmHasInventory",
+      "en" : "FilmHasInventory"
+    },
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#length",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "222",
+    "label" : {
+      "IRI-based" : "length",
+      "en" : "Film.Length"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "221"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#picture",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "224",
+    "label" : {
+      "IRI-based" : "picture",
+      "en" : "Staff.Picture"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: blob"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "223"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer#active",
+    "baseIri" : "http://schaeffler.com/sakila/customer",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "active",
+      "en" : "Customer.Active"
+    },
+    "minCardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(1)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "225"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/language#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/language",
+    "range" : "227",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Language.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "15",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#AddressPartOfCity",
+    "inverse" : "229",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "AddressPartOfCity",
+      "en" : "AddressPartOfCity"
+    },
+    "domain" : "43",
+    "attributes" : [ "object" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#staff_id",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "185",
+    "label" : {
+      "IRI-based" : "staff_id",
+      "en" : "Staff.StaffId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(3) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "230"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#PaymentPartOfCustomer",
+    "inverse" : "110",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "PaymentPartOfCustomer",
+      "en" : "PaymentPartOfCustomer"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/rental#return_date",
+    "baseIri" : "http://schaeffler.com/sakila/rental",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "return_date",
+      "en" : "Rental.ReturnDate"
+    },
+    "domain" : "37",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "233"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/inventory#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/inventory",
+    "range" : "239",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Inventory.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "74",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "238"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/city#city_id",
+    "baseIri" : "http://schaeffler.com/sakila/city",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "city_id",
+      "en" : "City.CityId"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "106",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "240"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film#description",
+    "baseIri" : "http://schaeffler.com/sakila/film",
+    "range" : "237",
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "Film.Description"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "OriginalDataType: text"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/payment#amount",
+    "baseIri" : "http://schaeffler.com/sakila/payment",
+    "range" : "200",
+    "label" : {
+      "IRI-based" : "amount",
+      "en" : "Payment.Amount"
+    },
+    "minCardinality" : "1",
+    "domain" : "23",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(5,2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/country#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/country",
+    "range" : "244",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Country.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "243"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#city",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "192",
+    "label" : {
+      "IRI-based" : "city",
+      "en" : "CustomerList.City"
+    },
+    "minCardinality" : "1",
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "245"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list#length",
+    "baseIri" : "http://schaeffler.com/sakila/nicer_but_slower_film_list",
+    "range" : "247",
+    "label" : {
+      "IRI-based" : "length",
+      "en" : "NicerButSlowerFilmList.Length"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "246"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer#email",
+    "baseIri" : "http://schaeffler.com/sakila/customer",
+    "range" : "213",
+    "label" : {
+      "IRI-based" : "email",
+      "en" : "Customer.Email"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "248"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StorePartOfStaff",
+    "inverse" : "4",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "StorePartOfStaff",
+      "en" : "StorePartOfStaff"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "250"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/country#country",
+    "baseIri" : "http://schaeffler.com/sakila/country",
+    "range" : "253",
+    "label" : {
+      "IRI-based" : "country",
+      "en" : "Country.Country"
+    },
+    "minCardinality" : "1",
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#AddressHasCustomer",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "AddressHasCustomer",
+      "en" : "AddressHasCustomer"
+    },
+    "domain" : "43",
+    "attributes" : [ "object" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/customer",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Customer.LastUpdate"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "254"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list#title",
+    "baseIri" : "http://schaeffler.com/sakila/film_list",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "title",
+      "en" : "FilmList.Title"
+    },
+    "domain" : "95",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(255)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "255"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list#description",
+    "baseIri" : "http://schaeffler.com/sakila/film_list",
+    "range" : "204",
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "FilmList.Description"
+    },
+    "domain" : "95",
+    "comment" : {
+      "en" : "OriginalDataType: text"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "256"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_list#length",
+    "baseIri" : "http://schaeffler.com/sakila/film_list",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "length",
+      "en" : "FilmList.Length"
+    },
+    "domain" : "95",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor_info#film_info",
+    "baseIri" : "http://schaeffler.com/sakila/actor_info",
+    "range" : "258",
+    "label" : {
+      "IRI-based" : "film_info",
+      "en" : "ActorInfo.FilmInfo"
+    },
+    "domain" : "149",
+    "comment" : {
+      "en" : "OriginalDataType: text"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "261"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor_info#first_name",
+    "baseIri" : "http://schaeffler.com/sakila/actor_info",
+    "range" : "249",
+    "label" : {
+      "IRI-based" : "first_name",
+      "en" : "ActorInfo.FirstName"
+    },
+    "minCardinality" : "1",
+    "domain" : "149",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(45)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "262"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StaffHasRental",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "StaffHasRental",
+      "en" : "StaffHasRental"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff_list#SID",
+    "baseIri" : "http://schaeffler.com/sakila/staff_list",
+    "range" : "264",
+    "label" : {
+      "IRI-based" : "SID",
+      "en" : "StaffList.Sid"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "en" : "OriginalDataType: tinyint(3) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#CategoryHasFilmCategory",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "CategoryHasFilmCategory",
+      "en" : "CategoryHasFilmCategory"
+    },
+    "domain" : "47",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/sales_by_film_category#category",
+    "baseIri" : "http://schaeffler.com/sakila/sales_by_film_category",
+    "range" : "266",
+    "label" : {
+      "IRI-based" : "category",
+      "en" : "SalesByFilmCategory.Category"
+    },
+    "minCardinality" : "1",
+    "domain" : "132",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(25)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer#first_name",
+    "baseIri" : "http://schaeffler.com/sakila/customer",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "first_name",
+      "en" : "Customer.FirstName"
+    },
+    "minCardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(45)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "267"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address#address",
+    "baseIri" : "http://schaeffler.com/sakila/address",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "address",
+      "en" : "Address.Address"
+    },
+    "minCardinality" : "1",
+    "domain" : "43",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "268"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor_info#actor_id",
+    "baseIri" : "http://schaeffler.com/sakila/actor_info",
+    "range" : "216",
+    "label" : {
+      "IRI-based" : "actor_id",
+      "en" : "ActorInfo.ActorId"
+    },
+    "minCardinality" : "1",
+    "domain" : "149",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(5) unsigned"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/actor#first_name",
+    "baseIri" : "http://schaeffler.com/sakila/actor",
+    "range" : "271",
+    "label" : {
+      "IRI-based" : "first_name",
+      "en" : "Actor.FirstName"
+    },
+    "minCardinality" : "1",
+    "domain" : "34",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(45)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_text#title",
+    "baseIri" : "http://schaeffler.com/sakila/film_text",
+    "range" : "260",
+    "label" : {
+      "IRI-based" : "title",
+      "en" : "FilmText.Title"
+    },
+    "minCardinality" : "1",
+    "domain" : "93",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(255)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#last_update",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "274",
+    "label" : {
+      "IRI-based" : "last_update",
+      "en" : "Staff.LastUpdate"
+    },
+    "minCardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: timestamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/film_text#description",
+    "baseIri" : "http://schaeffler.com/sakila/film_text",
+    "range" : "190",
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "FilmText.Description"
+    },
+    "domain" : "93",
+    "comment" : {
+      "en" : "OriginalDataType: text"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "275"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#password",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "password",
+      "en" : "Staff.Password"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "276"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/category#name",
+    "baseIri" : "http://schaeffler.com/sakila/category",
+    "range" : "251",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "Category.Name"
+    },
+    "minCardinality" : "1",
+    "domain" : "47",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(25)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StorePartOfAddress",
+    "inverse" : "139",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "StorePartOfAddress",
+      "en" : "StorePartOfAddress"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "278"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/address#phone",
+    "baseIri" : "http://schaeffler.com/sakila/address",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "phone",
+      "en" : "Address.Phone"
+    },
+    "minCardinality" : "1",
+    "domain" : "43",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "279"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#StaffPartOfAddress",
+    "inverse" : "136",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "StaffPartOfAddress",
+      "en" : "StaffPartOfAddress"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/language#name",
+    "baseIri" : "http://schaeffler.com/sakila/language",
+    "range" : "259",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "Language.Name"
+    },
+    "minCardinality" : "1",
+    "domain" : "15",
+    "comment" : {
+      "en" : "OriginalDataType: char(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "281"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/customer_list#zip%20code",
+    "baseIri" : "http://schaeffler.com/sakila/customer_list",
+    "range" : "236",
+    "label" : {
+      "IRI-based" : "zip%20code",
+      "en" : "CustomerList.Zip code"
+    },
+    "domain" : "20",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "283"
+  }, {
+    "iri" : "http://schaeffler.com/sakila#CityHasAddress",
+    "baseIri" : "http://schaeffler.com/sakila",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "CityHasAddress",
+      "en" : "CityHasAddress"
+    },
+    "domain" : "106",
+    "attributes" : [ "object" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://schaeffler.com/sakila/staff#username",
+    "baseIri" : "http://schaeffler.com/sakila/staff",
+    "range" : "282",
+    "label" : {
+      "IRI-based" : "username",
+      "en" : "Staff.Username"
+    },
+    "minCardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(16)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "284"
+  } ]
+}

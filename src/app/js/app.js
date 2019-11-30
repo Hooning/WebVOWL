@@ -275,7 +275,6 @@ module.exports = function (){
       leftSidebar.showSidebar(0);
       leftSidebar.hideCollapseButton(true);
       
-      
       graph.start();
       
       var modeOp = d3.select("#modeOfOperationString");
@@ -359,9 +358,9 @@ module.exports = function (){
       
     }
   };
-  
-  
+
   function loadOntologyFromText( jsonText, filename, alternativeFilename ){
+    console.log('File Name : ', filename);
     d3.select("#reloadCachedOntology").classed("hidden", true);
     pauseMenu.reset();
     graph.options().navigationMenu().hideAllMenus();
@@ -603,7 +602,7 @@ module.exports = function (){
     }
     return rv;
   }
-  
+
   return app;
 }
 ;

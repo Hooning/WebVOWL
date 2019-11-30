@@ -1,0 +1,2617 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schaeffler.com/northwind", "http://schaeffler.com/northwind/Employees", "http://www.w3.org/2001/XMLSchema", "http://schaeffler.com/northwind/Territories", "http://schaeffler.com/northwind/Region", "http://schaeffler.com/northwind/Products", "http://schaeffler.com/northwind/Customers", "http://www.w3.org/2000/01/rdf-schema", "http://schaeffler.com/northwind/Shippers", "http://schaeffler.com/northwind/Order%20Details", "http://schaeffler.com/northwind/CustomerDemographics", "http://schaeffler.com/northwind/Categories", "http://schaeffler.com/northwind/Orders", "http://schaeffler.com/northwind/Suppliers" ],
+    "title" : {
+      "en" : "northwind"
+    },
+    "iri" : "http://schaeffler.com/northwind",
+    "version" : "Version 0.0.1",
+    "author" : [ "admin" ],
+    "labels" : {
+      "en" : "Northwind"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "admin",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-30T01:06:16.134",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "Version 0.0.1",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "northwind",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://schaeffler.com/northwind/Region",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region",
+      "en" : "Region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customers",
+      "en" : "Customers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Territories",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Territories",
+      "en" : "Territories"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/CustomerDemographics",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CustomerDemographics",
+      "en" : "Customerdemographics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Order%20Details",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order%20Details",
+      "en" : "Order details"
+    },
+    "attributes" : [ "external" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Products",
+      "en" : "Products"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Shippers",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shippers",
+      "en" : "Shippers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Orders",
+      "en" : "Orders"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Employees",
+      "en" : "Employees"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "167",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "155",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "148",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "173",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Suppliers",
+      "en" : "Suppliers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "178",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "176",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Categories",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Categories",
+      "en" : "Categories"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "174",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "181",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "183",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "184",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://schaeffler.com/northwind/Employees#HireDate",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "HireDate",
+      "en" : "Employees.Hiredate"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Region#RegionID",
+    "baseIri" : "http://schaeffler.com/northwind/Region",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "RegionID",
+      "en" : "Region.Regionid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "4",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Categories#Picture",
+    "baseIri" : "http://schaeffler.com/northwind/Categories",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "Picture",
+      "en" : "Categories.Picture"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "OriginalDataType: longblob"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#CompanyName",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "CompanyName",
+      "en" : "Customers.Companyname"
+    },
+    "minCardinality" : "1",
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#Region",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "Region",
+      "en" : "Customers.Region"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#City",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "City",
+      "en" : "Customers.City"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#Fax",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "Fax",
+      "en" : "Suppliers.Fax"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(24)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#PostalCode",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "PostalCode",
+      "en" : "Employees.Postalcode"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Region#RegionDescription",
+    "baseIri" : "http://schaeffler.com/northwind/Region",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "RegionDescription",
+      "en" : "Region.Regiondescription"
+    },
+    "minCardinality" : "1",
+    "domain" : "4",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#Country",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "Country",
+      "en" : "Suppliers.Country"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#Address",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "Address",
+      "en" : "Employees.Address"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(60)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#OrdersPartOfEmployees",
+    "inverse" : "29",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "OrdersPartOfEmployees",
+      "en" : "OrdersPartOfEmployees"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#TitleOfCourtesy",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "TitleOfCourtesy",
+      "en" : "Employees.Titleofcourtesy"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(25)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#Country",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "Country",
+      "en" : "Employees.Country"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#ProductsPartOfCategories",
+    "inverse" : "36",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "ProductsPartOfCategories",
+      "en" : "ProductsPartOfCategories"
+    },
+    "domain" : "35",
+    "attributes" : [ "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#Extension",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "Extension",
+      "en" : "Employees.Extension"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(4)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#RequiredDate",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "RequiredDate",
+      "en" : "Orders.Requireddate"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#Freight",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "Freight",
+      "en" : "Orders.Freight"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(10,4)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Shippers#CompanyName",
+    "baseIri" : "http://schaeffler.com/northwind/Shippers",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "CompanyName",
+      "en" : "Shippers.Companyname"
+    },
+    "minCardinality" : "1",
+    "domain" : "44",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#ShippersHasOrders",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "ShippersHasOrders",
+      "en" : "ShippersHasOrders"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#ContactName",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "ContactName",
+      "en" : "Suppliers.Contactname"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(30)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#CategoriesHasProducts",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "CategoriesHasProducts",
+      "en" : "CategoriesHasProducts"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#Region",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "Region",
+      "en" : "Suppliers.Region"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products#ReorderLevel",
+    "baseIri" : "http://schaeffler.com/northwind/Products",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "ReorderLevel",
+      "en" : "Products.Reorderlevel"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#City",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "City",
+      "en" : "Suppliers.City"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#Salary",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "Salary",
+      "en" : "Employees.Salary"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: float"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#ContactTitle",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "ContactTitle",
+      "en" : "Suppliers.Contacttitle"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(30)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#OrdersPartOfCustomers",
+    "inverse" : "60",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "OrdersPartOfCustomers",
+      "en" : "OrdersPartOfCustomers"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Territories#TerritoryDescription",
+    "baseIri" : "http://schaeffler.com/northwind/Territories",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "TerritoryDescription",
+      "en" : "Territories.Territorydescription"
+    },
+    "minCardinality" : "1",
+    "domain" : "62",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(50)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#OrdersPartOfShippers",
+    "inverse" : "46",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "OrdersPartOfShippers",
+      "en" : "OrdersPartOfShippers"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#SupplierID",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "SupplierID",
+      "en" : "Suppliers.Supplierid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#Address",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "Address",
+      "en" : "Suppliers.Address"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(60)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#CompanyName",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "CompanyName",
+      "en" : "Suppliers.Companyname"
+    },
+    "minCardinality" : "1",
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#ShipPostalCode",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "ShipPostalCode",
+      "en" : "Orders.Shippostalcode"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#Region",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "Region",
+      "en" : "Employees.Region"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#TerritoriesHasEmployees",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "TerritoriesHasEmployees",
+      "en" : "TerritoriesHasEmployees"
+    },
+    "domain" : "62",
+    "comment" : {
+      "en" : "OriginalTableName: EmployeeTerritories"
+    },
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Shippers#Phone",
+    "baseIri" : "http://schaeffler.com/northwind/Shippers",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "Phone",
+      "en" : "Shippers.Phone"
+    },
+    "domain" : "44",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(24)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#Photo",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "Photo",
+      "en" : "Employees.Photo"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: longblob"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Categories#CategoryID",
+    "baseIri" : "http://schaeffler.com/northwind/Categories",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "CategoryID",
+      "en" : "Categories.Categoryid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "7",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Order%20Details#UnitPrice",
+    "baseIri" : "http://schaeffler.com/northwind/Order%20Details",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "UnitPrice",
+      "en" : "Order details.Unitprice"
+    },
+    "minCardinality" : "1",
+    "domain" : "83",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(10,4)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#Country",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "Country",
+      "en" : "Customers.Country"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#PhotoPath",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "PhotoPath",
+      "en" : "Employees.Photopath"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(255)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#BirthDate",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "BirthDate",
+      "en" : "Employees.Birthdate"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#ShipRegion",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "ShipRegion",
+      "en" : "Orders.Shipregion"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#SuppliersHasProducts",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "SuppliersHasProducts",
+      "en" : "SuppliersHasProducts"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#HomePage",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "HomePage",
+      "en" : "Suppliers.Homepage"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: mediumtext"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#ReportstoManagesEmployeeid",
+    "inverse" : "98",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "ReportstoManagesEmployeeid",
+      "en" : "ReportstoManagesEmployeeid"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#OrderID",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "OrderID",
+      "en" : "Orders.Orderid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#HomePhone",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "HomePhone",
+      "en" : "Employees.Homephone"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(24)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#ContactTitle",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "ContactTitle",
+      "en" : "Customers.Contacttitle"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(30)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#OrderDate",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "OrderDate",
+      "en" : "Orders.Orderdate"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#ShipName",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "ShipName",
+      "en" : "Orders.Shipname"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#ShipAddress",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "ShipAddress",
+      "en" : "Orders.Shipaddress"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(60)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#OrdersHasOrder%20details",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "OrdersHasOrder%20details",
+      "en" : "OrdersHasOrder details"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products#QuantityPerUnit",
+    "baseIri" : "http://schaeffler.com/northwind/Products",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "QuantityPerUnit",
+      "en" : "Products.Quantityperunit"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products#ProductID",
+    "baseIri" : "http://schaeffler.com/northwind/Products",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "ProductID",
+      "en" : "Products.Productid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "35",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Territories#TerritoryID",
+    "baseIri" : "http://schaeffler.com/northwind/Territories",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "TerritoryID",
+      "en" : "Territories.Territoryid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "62",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#FirstName",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "FirstName",
+      "en" : "Employees.Firstname"
+    },
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#CustomerdemographicsHasCustomers",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "CustomerdemographicsHasCustomers",
+      "en" : "CustomerdemographicsHasCustomers"
+    },
+    "domain" : "87",
+    "comment" : {
+      "en" : "OriginalTableName: CustomerCustomerDemo"
+    },
+    "attributes" : [ "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#ProductsPartOfSuppliers",
+    "inverse" : "94",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "ProductsPartOfSuppliers",
+      "en" : "ProductsPartOfSuppliers"
+    },
+    "domain" : "35",
+    "attributes" : [ "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#ProductsHasOrder%20details",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "ProductsHasOrder%20details",
+      "en" : "ProductsHasOrder details"
+    },
+    "domain" : "35",
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Categories#Description",
+    "baseIri" : "http://schaeffler.com/northwind/Categories",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "Description",
+      "en" : "Categories.Description"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "OriginalDataType: mediumtext"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#RegionHasTerritories",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "RegionHasTerritories",
+      "en" : "RegionHasTerritories"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products#UnitsOnOrder",
+    "baseIri" : "http://schaeffler.com/northwind/Products",
+    "range" : "133",
+    "label" : {
+      "IRI-based" : "UnitsOnOrder",
+      "en" : "Products.Unitsonorder"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#Phone",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "137",
+    "label" : {
+      "IRI-based" : "Phone",
+      "en" : "Customers.Phone"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(24)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/CustomerDemographics#CustomerDesc",
+    "baseIri" : "http://schaeffler.com/northwind/CustomerDemographics",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "CustomerDesc",
+      "en" : "Customerdemographics.Customerdesc"
+    },
+    "domain" : "87",
+    "comment" : {
+      "en" : "OriginalDataType: mediumtext"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Shippers#ShipperID",
+    "baseIri" : "http://schaeffler.com/northwind/Shippers",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "ShipperID",
+      "en" : "Shippers.Shipperid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "44",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#PostalCode",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "PostalCode",
+      "en" : "Customers.Postalcode"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#Notes",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "Notes",
+      "en" : "Employees.Notes"
+    },
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: mediumtext"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#ShipCountry",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "ShipCountry",
+      "en" : "Orders.Shipcountry"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#Order%20detailsPartOfOrders",
+    "inverse" : "111",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "Order%20detailsPartOfOrders",
+      "en" : "Order detailsPartOfOrders"
+    },
+    "domain" : "83",
+    "attributes" : [ "object" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products#ProductName",
+    "baseIri" : "http://schaeffler.com/northwind/Products",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "ProductName",
+      "en" : "Products.Productname"
+    },
+    "minCardinality" : "1",
+    "domain" : "35",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(40)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#EmployeesHasOrders",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "EmployeesHasOrders",
+      "en" : "EmployeesHasOrders"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#TerritoriesPartOfRegion",
+    "inverse" : "131",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "TerritoriesPartOfRegion",
+      "en" : "TerritoriesPartOfRegion"
+    },
+    "domain" : "62",
+    "attributes" : [ "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products#UnitPrice",
+    "baseIri" : "http://schaeffler.com/northwind/Products",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "UnitPrice",
+      "en" : "Products.Unitprice"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "OriginalDataType: decimal(10,4)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#Title",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "Title",
+      "en" : "Employees.Title"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(30)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/CustomerDemographics#CustomerTypeID",
+    "baseIri" : "http://schaeffler.com/northwind/CustomerDemographics",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "CustomerTypeID",
+      "en" : "Customerdemographics.Customertypeid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "87",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#Fax",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "Fax",
+      "en" : "Customers.Fax"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(24)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#City",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "City",
+      "en" : "Employees.City"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#Order%20detailsPartOfProducts",
+    "inverse" : "127",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "Order%20detailsPartOfProducts",
+      "en" : "Order detailsPartOfProducts"
+    },
+    "domain" : "83",
+    "attributes" : [ "object" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#Address",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "165",
+    "label" : {
+      "IRI-based" : "Address",
+      "en" : "Customers.Address"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(60)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products#UnitsInStock",
+    "baseIri" : "http://schaeffler.com/northwind/Products",
+    "range" : "167",
+    "label" : {
+      "IRI-based" : "UnitsInStock",
+      "en" : "Products.Unitsinstock"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#CustomerID",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "146",
+    "label" : {
+      "IRI-based" : "CustomerID",
+      "en" : "Customers.Customerid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(5)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#CustomersPartOfCustomerdemographics",
+    "inverse" : "124",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "CustomersPartOfCustomerdemographics",
+      "en" : "CustomersPartOfCustomerdemographics"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalTableName: CustomerCustomerDemo"
+    },
+    "attributes" : [ "object" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Products#Discontinued",
+    "baseIri" : "http://schaeffler.com/northwind/Products",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "Discontinued",
+      "en" : "Products.Discontinued"
+    },
+    "minCardinality" : "1",
+    "domain" : "35",
+    "comment" : {
+      "en" : "OriginalDataType: bit(1)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#LastName",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "LastName",
+      "en" : "Employees.Lastname"
+    },
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(20)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#EmployeesPartOfTerritories",
+    "inverse" : "75",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "EmployeesPartOfTerritories",
+      "en" : "EmployeesPartOfTerritories"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalTableName: EmployeeTerritories"
+    },
+    "attributes" : [ "object" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#EmployeeidSubordinateOfReportsto",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "EmployeeidSubordinateOfReportsto",
+      "en" : "EmployeeidSubordinateOfReportsto"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#Phone",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "Phone",
+      "en" : "Suppliers.Phone"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(24)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Order%20Details#Quantity",
+    "baseIri" : "http://schaeffler.com/northwind/Order%20Details",
+    "range" : "176",
+    "label" : {
+      "IRI-based" : "Quantity",
+      "en" : "Order details.Quantity"
+    },
+    "minCardinality" : "1",
+    "domain" : "83",
+    "comment" : {
+      "en" : "OriginalDataType: smallint(2)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#ShippedDate",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "ShippedDate",
+      "en" : "Orders.Shippeddate"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: datetime"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Categories#CategoryName",
+    "baseIri" : "http://schaeffler.com/northwind/Categories",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "CategoryName",
+      "en" : "Categories.Categoryname"
+    },
+    "minCardinality" : "1",
+    "domain" : "7",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Employees#EmployeeID",
+    "baseIri" : "http://schaeffler.com/northwind/Employees",
+    "range" : "151",
+    "label" : {
+      "IRI-based" : "EmployeeID",
+      "en" : "Employees.Employeeid"
+    },
+    "maxCardinality" : "1",
+    "cardinality" : "1",
+    "minCardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "OriginalDataType: int(11)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "180"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Order%20Details#Discount",
+    "baseIri" : "http://schaeffler.com/northwind/Order%20Details",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "Discount",
+      "en" : "Order details.Discount"
+    },
+    "minCardinality" : "1",
+    "domain" : "83",
+    "comment" : {
+      "en" : "OriginalDataType: double(8,0)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Suppliers#PostalCode",
+    "baseIri" : "http://schaeffler.com/northwind/Suppliers",
+    "range" : "173",
+    "label" : {
+      "IRI-based" : "PostalCode",
+      "en" : "Suppliers.Postalcode"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(10)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Orders#ShipCity",
+    "baseIri" : "http://schaeffler.com/northwind/Orders",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "ShipCity",
+      "en" : "Orders.Shipcity"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(15)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://schaeffler.com/northwind#CustomersHasOrders",
+    "baseIri" : "http://schaeffler.com/northwind",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "CustomersHasOrders",
+      "en" : "CustomersHasOrders"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://schaeffler.com/northwind/Customers#ContactName",
+    "baseIri" : "http://schaeffler.com/northwind/Customers",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "ContactName",
+      "en" : "Customers.Contactname"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "OriginalDataType: varchar(30)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "184"
+  } ]
+}
