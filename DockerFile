@@ -5,4 +5,4 @@ RUN npm install \
     && npm install grunt-cli -g
 COPY . /app
 CMD grunt webserver
-EXPOSE 3200
+EXPOSE 8000

@@ -47,7 +47,7 @@ module.exports = function (grunt) {
 			devserver: {
 				options: {
 					protocol: "http",
-					hostname: "localhost",
+					hostname: "0.0.0.0",
 					port: 8000,
 					base: deployPath,
 					directory: deployPath,

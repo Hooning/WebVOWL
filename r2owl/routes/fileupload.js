@@ -34,7 +34,7 @@ router.post('/viewGraph', async (req, res, next) => {
         });
 
         res.writeHead(200,
-            {Location: 'http://localhost:8000/#' + fileName.substr(0, fileName.lastIndexOf("."))}
+            {Location: 'http://192.168.33.11:8000/#' + fileName.substr(0, fileName.lastIndexOf("."))}
         );
     
     // })
