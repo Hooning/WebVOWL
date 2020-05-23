@@ -4,6 +4,12 @@ const formidable = require('formidable')
 var fs = require('fs');
 var path = require('path')
 
+var ipAddress = 'localhost';
+
+require('dns').lookup(require('os').hostname(), function (err, add, fam) {
+    ipAddress = add;
+})
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
@@ -34,7 +40,7 @@ router.post('/viewGraph', async (req, res, next) => {
         });
 
         res.writeHead(200,
-            {Location: 'http://192.168.33.11:8000/#' + fileName.substr(0, fileName.lastIndexOf("."))}
+            { Location: 'http://' + ipAddress + ':8000/#' + fileName.substr(0, fileName.lastIndexOf(".")) }
         );
     
     // })
